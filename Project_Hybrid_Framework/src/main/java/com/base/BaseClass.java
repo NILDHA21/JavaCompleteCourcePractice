@@ -9,7 +9,7 @@ import com.utilities.configFile;
 
 public class BaseClass {
 
-	WebDriver driver;
+	public static WebDriver driver;
 	
 	void setUp() throws Exception
 	{
