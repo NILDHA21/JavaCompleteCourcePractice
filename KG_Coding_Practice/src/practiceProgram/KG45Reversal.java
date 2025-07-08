@@ -26,16 +26,13 @@ public class KG45Reversal {
 
 		// Step 4: Reverse the array and store in newArr
 		int[] newArr = reverse(arr);
-
 		// Step 5: Print the reversed array
-		System.out.println("The required reversed array is ");
-		int k = 0;
-		while(k < newArr.length) {
-			System.out.print(newArr[k] + " ");  // Print each element with space
-			k++;
-		}
-		System.out.println();  // Print a new line after array output
-
+		display(newArr);
+		
+		// Step 4: Reverse the array and store in newArr
+		reverse2(arr);
+		// Step 5: Print the reversed array
+				display(arr);
 		sc.close();  // Close the scanner to prevent resource leak
 	}
 
@@ -43,7 +40,7 @@ public class KG45Reversal {
 	public static int[] reverse(int[] arr) {
 		int newSize = arr.length;
 		int[] newArr = new int[newSize];  // Create a new array of same size
-
+		
 		// Initialize i to last index of original array
 		int i = arr.length - 1;
 		int j = 0;  // Index for new array (starts from beginning)
@@ -56,4 +53,34 @@ public class KG45Reversal {
 		}
 		return newArr;  // Return the reversed array
 	}
+	
+	
+	public static void reverse2(int[] arr) {
+		int i = 0;
+		while(i < arr.length/2) {
+			int swap = arr[i];
+			arr[i] = arr[(arr.length - 1) -i];
+			arr[(arr.length - 1) - i] = swap;
+			i++;
+		}
+	}
+	public static void display(int[] newArr) {
+		// Step 5: Print the reversed array
+		System.out.println("The required reversed array is ");
+		int k = 0;
+		while(k < newArr.length) {
+			System.out.print(newArr[k] + " ");  // Print each element with space
+			k++;
+		}
+		System.out.println();  // Print a new line after array output
+	}
+	
 }
+
+
+
+
+
+
+
+
