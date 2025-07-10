@@ -64,3 +64,14 @@ CHALLENGES
 48. Create a program to search an element in a 2-D array.  
 49. Create a program to do sum and average of all elements in a 2-D array.  
 50. Create a program to find the sum of two diagonal elements.
+51. Create a Book class for a library system.
+Instance variables: title, author, isbn.
+Static variable: totalBooks, a counter for the total number of book instances.
+Instance methods: borrowBook(), returnBook().
+Static method: getTotalBooks(), to get the total number of books in the library.
+
+52. Design a Course class.
+Instance variables: courseName, enrolledStudents.
+Static variable: maxCapacity, the maximum number of students for any course.
+Instance methods: enrollStudent(String studentName), unenrollStudent(String studentName).
+Static method: setMaxCapacity(int capacity), to set the maximum capacity for courses.

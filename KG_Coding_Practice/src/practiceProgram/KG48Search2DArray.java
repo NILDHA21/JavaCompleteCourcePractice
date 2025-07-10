@@ -1,5 +1,4 @@
 package practiceProgram;
-
 import java.util.Scanner;
 
 //48. Create a program to search an element in a 2-D array.  
@@ -41,8 +40,8 @@ public class KG48Search2DArray {
 		int rows = sc.nextInt();
 		System.out.print("Please enter the number of columns: ");
 		int columns = sc.nextInt();
-		int[][] numArray = new int[rows][columns];
 		
+		int[][] numArray = new int[rows][columns];
 		int i = 0;
 		while(i < rows) {
 			int j = 0;
