@@ -9,7 +9,7 @@ public class MainClass {
     	for(i = 1; i<= 100; i++) {
     		System.out.println(i);
     	}
-    	
+    	//for(int )
     	
 //    	System.out.print("enter your age: ");
 //    	int age = sc.nextInt();

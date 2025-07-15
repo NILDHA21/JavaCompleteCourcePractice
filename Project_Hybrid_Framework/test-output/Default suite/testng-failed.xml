@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.testcases.LoginTestCases">
+      <class name="com.ka.practice.KA15LoginPageTestCases">
         <methods>
-          <include name="testValidCredentials"/>
-          <include name="setUp"/>
+          <include name="TestCase2"/>
+          <include name="TestCase1"/>
+          <include name="TestCase5"/>
         </methods>
-      </class> <!-- com.testcases.LoginTestCases -->
+      </class> <!-- com.ka.practice.KA15LoginPageTestCases -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

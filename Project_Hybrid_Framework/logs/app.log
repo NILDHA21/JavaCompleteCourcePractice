@@ -1,1 +1,21 @@
 2025-06-20 00:46:50 [main] INFO  com.test.LogTest - 🔥 Log4j is working.
+2025-07-14 11:56:27 [main] INFO  com.utilities.MyListerner - Test case execution startedTest
+2025-07-14 11:57:11 [main] INFO  com.utilities.MyListerner - Test execution startedtestValidCredentials
+2025-07-14 11:57:14 [main] INFO  com.utilities.MyListerner - Test execution failedtestValidCredentials
+2025-07-14 11:57:14 [main] INFO  com.utilities.MyListerner - Test case execution finalizedTest
+2025-07-14 12:28:44 [main] INFO  com.utilities.MyListerner - Test case execution startedTest
+2025-07-14 12:29:07 [main] INFO  com.utilities.MyListerner - Test execution startedtestValidCredentials
+2025-07-14 12:29:08 [main] INFO  com.utilities.MyListerner - Test execution failedtestValidCredentials
+2025-07-14 12:29:09 [main] INFO  com.utilities.MyListerner - Test execution startedTestCase1
+2025-07-14 12:29:09 [main] INFO  com.utilities.MyListerner - Test execution failedTestCase1
+2025-07-14 12:29:09 [main] INFO  com.utilities.MyListerner - Test execution startedTestCase2
+2025-07-14 12:29:09 [main] INFO  com.utilities.MyListerner - Test execution failedTestCase2
+2025-07-14 12:29:09 [main] INFO  com.utilities.MyListerner - Test execution startedTestCase3
+2025-07-14 12:29:09 [main] INFO  com.utilities.MyListerner - Test execution passedTestCase3
+2025-07-14 12:29:09 [main] INFO  com.utilities.MyListerner - Test execution startedTestCase4
+2025-07-14 12:29:09 [main] INFO  com.utilities.MyListerner - Test execution passedTestCase4
+2025-07-14 12:29:09 [main] INFO  com.utilities.MyListerner - Test execution startedTestCase5
+2025-07-14 12:29:09 [main] INFO  com.utilities.MyListerner - Test execution skippedTestCase5
+2025-07-14 12:29:09 [main] INFO  com.utilities.MyListerner - Test execution startedTestCase6
+2025-07-14 12:29:09 [main] INFO  com.utilities.MyListerner - Test execution passedTestCase6
+2025-07-14 12:29:09 [main] INFO  com.utilities.MyListerner - Test case execution finalizedTest
