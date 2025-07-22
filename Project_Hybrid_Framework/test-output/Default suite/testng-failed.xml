@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.ka.practice.KA17DtataProvider">
+      <class name="com.ka.practice.KA19LoginPageTestCase">
         <methods>
-          <include name="testValidInvalid" invocation-numbers="3"/>
+          <include name="testValidCredentials"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- com.ka.practice.KA17DtataProvider -->
+      </class> <!-- com.ka.practice.KA19LoginPageTestCase -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -104,3 +104,43 @@ to perform basic arithmetic operations like addition, subtraction, multiplicatio
 74. Create a number guessing game where the program selects a random number, and the user has to guess it.
 75. Take an array of words and concatenate them into a single string using StringBuilder.
 76. Create an object with final fields and a constructor to initialize them.
+77.Create a simple application with at least two packages:
+`com.example.geometry` and `com.example.utils`.
+In the geometry package, define classes like Circle and Rectangle.
+In the utils package, create a Calculator class that can compute areas of these shapes.
+78.Define a `BankAccount` class with private attributes like
+`accountNumber`, `accountHolderName`, and `balance`.
+Provide public methods to deposit and withdraw money, ensuring that these methods don't allow illegal operations like withdrawing more money than the current balance.
+79.Define a class `Employee` with private attributes (like `name`, `age`, and `salary`),
+public methods to get and set these attributes, and a package-private method to `displayEmployeeDetails`.
+Create another class in the same package to test access to the `displayEmployeeDetails` method.
+80. Start with a base class `LibraryItem` that includes common attributes like `itemID`, `title`, and `author`, and methods like `checkout()` and `returnItem()`. 
+Create subclasses such as `Book`, `Magazine`, and `DVD`, each inheriting from `LibraryItem`. 
+Add unique attributes to each subclass, like `ISBN` for `Book`, `issueNumber` for `Magazine`, and `duration` for `DVD`.
+81. Create a class `Person` with attributes `name` and `age`. Override `equals()` to compare `Person` objects based on their attributes. 
+Override `hashCode()` consistent with the definition of `equals()`.
+82. Create a class `ArrayOperations` with a static nested class `Statistics`. `Statistics` could have methods like `mean()`, `median()`, which operate on an array.
+83. Create an abstract class Shape with an abstract method calculateArea(). Implement two subclasses: Circle and Square. Each subclass should have relevant attributes (like radius for Circle, side for Square) and their own implementation of the calculateArea() method.
+84. Create an interface Flyable with an abstract method fly(). Create an abstract class Bird that implements Flyable. Implement a subclass Eagle that extends Bird. Provide an implementation for the fly() method.
+85. In a class Calculator, create multiple add() methods that overload each other and can sum two integers, three integers, or two doubles. Demonstrate how each can be called with different numbers of parameters.
+86. Define a base class Vehicle with a method service() and a subclass Car that overrides service(). In Car's service(), provide a specific implementation that calls super.service() as well, to show how overriding works.
+87. Arithmetic Exception Handling
+Write a program that asks the user to enter two integers and then divides the first by the second. The program should handle any arithmetic exceptions that may occur (like division by zero) and display an appropriate message.
+Key Points:
+• Use Scanner to read user input.
+• Implement a try-catch block to handle ArithmeticException.
+• Display a user-friendly message if division by zero occurs.
+88. File Not Found Exception Handling
+    Write a program to read a filename from the user and display its content. The program should handle the situation where the file does not exist.
+Key Points:
+* Use Scanner to read the filename from the user.
+* Use FileReader to read the file content.
+* Implement a try-catch block to handle FileNotFoundException.
+* Display a message informing the user if the file is not found.
+89. Write a method concatenate Strings that takes variable arguments of String type and concatenates them into a single string.
+90. Write a program that sorts a list of String objects in descending order using a custom Comparator.
+91. Use the Collections class to count the frequency of a particular element in an ArrayList.
+92. Write a method that swaps two elements in an ArrayList, given their indices.
+93. Create a program that reverses the elements of a List and prints the reversed list.
+94. Create a PriorityQueue of a custom class Student with attributes name and grade. Use a comparator to order by grade.
+95. Write a program that takes a string and returns the number of unique characters using a Set.

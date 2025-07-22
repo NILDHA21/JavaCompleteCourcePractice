@@ -11,12 +11,10 @@ public class KG76FinalWithConstructor {
 		super();
 		this.age = age;
 		this.schoolName = schoolName;
-		
 	}
 	public void displayInfo() {
 		System.out.println("Age: " + age);
 		System.out.println("School Info: " + schoolName);
-		
 	}
 	
 	public static void main(String[] args) {
