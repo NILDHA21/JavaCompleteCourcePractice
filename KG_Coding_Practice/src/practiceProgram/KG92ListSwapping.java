@@ -4,7 +4,7 @@ import java.util.List;
 
 //92. Write a method that swaps two elements in an ArrayList, given their indices.
 
-public class ListSwapping {
+public class KG92ListSwapping {
 	public static void main(String[] args) {
 		List<Integer> list = Arrays.asList(1,2,3,4,5,6,7,8);
 		System.out.println(list);
